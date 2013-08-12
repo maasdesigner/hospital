@@ -1,0 +1,59 @@
+<!--header-->
+<div class="header">
+
+  <div class="head">
+    <%= link_to "Hastanemiz", "hastanemiz", class: "navigator"%>
+    <!--logo-->
+    <%= image_tag "logo.png", class: "logo" %>
+    <!--menu-->
+    <%= render :partial => 'shared/menu'%>
+  </div>
+</div>
+
+<!--banner-->
+<div class="banner1">
+
+
+  <!--inner-->
+  <div class="inner1">
+
+    <%= render :partial => 'shared/menucontainer'%>
+
+
+
+
+    <!--hastanemiz-->
+    <div class="hastanemiz">
+
+      <%= image_tag "imghastane.png", class: "hastanemizimg" %>
+
+      <div class="hastanemiztext">
+        <h1 class="hastanetext">Sağlıkta Güvenli ve Doğru Hizmet</h1>
+        Özel Metro Hastanesi “Hasta Memnuniyeti” ilkesini benimseyerek, hasta ve hasta yakınlarına, modern, güvenilir, ilgili, güleryüzlü ve kaliteli sağlık hizmetini ileri teknolojik donanımlara sahip imkanlar çerçevesinde sunmaktadır ve “Sağlıkta güvenli ve doğru hizmet” anlayışıyla hizmet vermektedir.
+        Özülkü Şirketler Grubu üyesi olan Özel Metro Hastanesi ,uzun yıllar sağlık sektöründeki deneyimi ve bilgi birikimi, sürekli yenilenen yüksek teknolojisi, kalifiye uzman tıbbi ve idari kadrosu ve disiplinli yapısı ile bugün, üç hizmet noktasında, çocuk ve erişkin acil servisleri, ambulans hizmetleri,
+        ÖZÜLKÜ GROUP'un sağlık sektöründeki ilk yatırımı olan ve 1997 yılında kurulan <%= link_to "Özel Adana Hastanesi ( eski adıyla Universale Hospital )", "http://www.adanahastanesi.com.tr/" %> ’nin ardından, bilgi birikimi ve tecrübesinin ışığında Özel Metro Hastanesi ve –Özel Adana Güney Yıldızı Hastanesi gibi hastaneleri Adana ve bölge halkına kazandırarak sağlık sektöründe "öncü bir kuruluş olmak" hedef çıtasını daha da yükseklere çıkartmıştır.
+      </div>
+
+      <div class="hastanemiztext">
+        <h1 class="hastanetext">Kalite Politikamiz </h1>
+        <p>Özülkü Group olarak Kalite Yönetimi anlayışını benimsemişizdir. </p>
+        <p>Hastalarımızın tanı ve tedavi hizmetlerini en iyi ve en üst seviyede tutarak yaşam kalitesini maksimum düzeyde muhafaza ederiz.. Hastalarımızın sağlığını ve memnuniyetini en üst düzeyde tutmak temel prensiplerimizdendir. </p>
+        <p> Hastalarımızı ve yakınlarını durum ile ilgili bilgilendirerek tanı ve tedavi sürecine tam katılım sağlarız.  </p>
+        <p>Hastane olarak ekip çalışmasını benimser ve bir takım gibi hareket ederiz. </p>
+        <p>Hastane personellerimizin bilgi ve becerilerini arttırmak bizlere nitelikli iş gücü yaratmaktadır. Bunun için gereken uygulamaları yapar, nitelikli bir iş gücü ivmesi yaratırız.. </p>
+        <p>Sunduğumuz hizmetlerin kalitesini sürekli geliştirme çabası içinde olup tıbbın gelişmesinde katkıda bulunuruz. . </p>
+      </div>
+
+    </div><!--end hastanemiz-->
+
+
+
+
+    <!--info-->
+    <div class="info1">
+      © Copyright 2013 Özel Adana Metro Hastanesi. Mustafa Kemal Paşa Blv. No:15 Seyhan / ADANA. Tüm Hakları Saklıdır.
+      <%= link_to image_tag("maaslogo.png"), "http://www.malikaslan.com/", class: "adress"%>
+    </div><!--end info-->
+
+  </div><!--end inner-->
+</div><!--end banner-->
